@@ -1,0 +1,111 @@
+
+#  Project Documentation: Sarota Farm Website
+
+## 🌱 Project Overview
+Sarota Farm is a multipage website designed to showcase the farm’s products, services, and values. 
+The website provides visitors with an overview of the farm, details about services offered, 
+a gallery of fresh produce, and a way to contact the farm. 
+It is fully responsive, interactive, and ready for deployment.
+
+---
+
+##  Part 1: Planning and Organizing
+
+### Website Purpose
+The purpose of Sarota Farm’s website is to:
+- Showcase fresh farm produce and services.
+- Provide information about the farm's mission and values.
+- Allow customers to reach out easily via a contact page.
+- Build an online presence and credibility for the farm.
+
+### Pages Outline
+1. **Home** – Welcome section, brief introduction, and navigation to other pages.
+2. **About Us** – Information about Sarota Farm, history, mission, and team.
+3. **Services** – List of farm products/services (e.g., dairy, poultry, fresh produce).
+4. **Gallery** – A collection of images showcasing the farm and produce.
+5. **Contact** – Contact form, farm address, and social media links.
+
+### Navigation Map
+- The **navbar** will include: Home | About | Services | Gallery | Contact.
+- Each page links back to the homepage and has a shared header and footer.
+
+---
+
+##  Part 2: Website Development
+
+### HTML5
+- Semantic tags like `<header>`, `<nav>`, `<section>`, `<article>`, `<footer>` used for structure.
+- Each page has a consistent layout.
+
+### CSS
+- Responsive design using media queries.
+- Flexbox and Grid for layout.
+- Styling includes farm-themed colors (greens, browns, earthy tones).
+- Animations for hover effects on buttons and gallery images.
+
+### JavaScript
+- Interactive navigation menu (mobile toggle).
+- Simple form validation on the contact page.
+- Image slider/animation in the gallery.
+
+### Interactive Elements
+- Mobile navigation menu toggle.
+- Contact form validation before submission.
+- Gallery with hover animations.
+
+---
+
+## 🛠️ Part 3: Code Organization
+
+### Folder Structure
+```
+/sarota-farm
+   
+      style.css
+ 
+      script.js
+   /images
+      (farm photo)
+   index.html
+   about.html
+   products.html
+   contact.html
+   README.md
+```
+
+### Best Practices
+- Clean and commented code for readability.
+- Consistent indentation and naming conventions.
+- Use of relative paths for all assets.
+- Tested across desktop and mobile screen sizes.
+
+---
+
+## 🚀Part 4: Hosting and Deployment
+
+### Hosting Options
+- Vercel 
+
+### Deployment Checklist
+- All links and scripts working correctly.
+- Responsive on mobile and desktop.
+- Live URL shared in README.md.
+
+---
+
+##  Deliverables
+1. **GitHub Repository**
+   - Organized project files and folders.
+   - `README.md` with project details and live URL.
+
+2. **Live Website**
+   - Hosted version of Sarota Farm accessible online.
+
+---
+
+##  Outcome
+- Clear planning documentation.
+- Multi-page responsive website using HTML5, CSS, and JavaScript.
+- Interactive and user-friendly design.
+- Clean, scalable, and maintainable code.
+- Successfully deployed website accessible via a shareable URL.
