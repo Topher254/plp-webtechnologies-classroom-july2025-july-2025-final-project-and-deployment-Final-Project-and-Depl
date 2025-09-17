@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: green;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a.active {
+    border-bottom: 2px solid yellow;
+  }
+  
+  #menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 2rem;
+    background: url('./farm.png') no-repeat cover;
+    color: rgb(8, 2, 2);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    bottom: 0;
+  }
+  
+  .product-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-list li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    nav ul {
+      display: none;
+      flex-direction: column;
+    }
+    nav ul.show {
+      display: flex;
+    }
+    #menu-toggle {
+      display: block;
+    }
+  }
+  
